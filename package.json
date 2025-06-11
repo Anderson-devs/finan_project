@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "react-router-dom": "^7.6.2",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "npm --prefix montreal-consultoria/montreal-consultoria/backend start",
+    "frontend": "npm --prefix montreal-consultoria/montreal-consultoria start",
+    "start": "npm run dev"
+  }
+}

@@ -1,0 +1,20 @@
+:root {
+  --bs-primary: #0E63FE;
+  --bs-secondary: #14B8A6;
+  --font-family: 'Inter', sans-serif;
+  --border-radius: 8px;
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: #f8f9fa;
+  color: #212529;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

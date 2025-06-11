@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-router-dom": "^7.6.2"
+  },
+  "scripts": {
+    "start": "npm --prefix montreal-consultoria/montreal-consultoria run dev"
+  }
+}
